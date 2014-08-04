@@ -1,6 +1,3 @@
-Cactus-Setup
-============
-
 # Cactus with BootStrap 3 with Sass
 
 This is a quick and easy setup for building static web sites that run on the Django template language managed with Cactus. The setup uses Bootstrap 3 with Sass.

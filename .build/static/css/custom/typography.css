@@ -1,0 +1,21 @@
+/* line 1, typography.scss */
+.navbar-inverse {
+  background-color: #333;
+  border-color: #090909;
+}
+
+/* line 6, typography.scss */
+h1 {
+  font-size: 40px;
+}
+
+/* line 10, typography.scss */
+h4 {
+  font-size: 28px;
+}
+
+/* line 14, typography.scss */
+p {
+  font-size: 20px;
+  color: #777;
+}

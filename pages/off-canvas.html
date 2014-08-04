@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="page-header">
+            <h1>Cactus / Bootstrap deployed to AWS S3</h1>
+          </div>
+          <img src="{% static 'images/logos.png' %}">
+
+          <h4>My first attempt at combing a few of my favorite tools and frameworks to quickly build and publish static websites.</h4>
+
+          <p>
+          Bacon ipsum dolor sit amet meatball frankfurter ham hock, salami short loin swine beef ribs brisket short ribs ribeye pig. Cow shank pig leberkas ground round t-bone. Frankfurter chuck turducken rump, jerky filet mignon tenderloin pork chicken. Shoulder jerky salami ham. Fatback swine ham sausage chicken jowl pancetta. Fatback rump pork belly turkey frankfurter pancetta, drumstick beef. Rump bacon drumstick ground round bresaola.
+
+          Pork belly turkey pancetta short loin salami tenderloin fatback tongue prosciutto beef ribs. Frankfurter prosciutto flank beef ham hock pancetta t-bone chicken venison leberkas. Chuck leberkas fatback flank drumstick biltong landjaeger, capicola hamburger frankfurter bresaola. Meatloaf drumstick beef ribs, chicken meatball jerky bacon. Beef pastrami t-bone spare ribs.
+          </p>
+          
+        </div><!--/span-->
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+          </div>
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+
+    </div><!--/.container-->
+
+
+{% endblock content%}

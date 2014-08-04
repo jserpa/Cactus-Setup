@@ -1,4 +1,4 @@
 Cactus-Setup
 ============
 
-Cactus with BootStrap 3 &amp; Sass
+Cactus with BootStrap 3 and Sass
